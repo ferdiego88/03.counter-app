@@ -10,6 +10,7 @@ const CounterApp = ({value}) => {
 
     const handleAdd = (e) => {
         setCounter(counter + 1);
+        // setCounter( (c) => c + 1 );
     }
 
     return (
