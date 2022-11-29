@@ -1,16 +1,22 @@
 //FC
 import PropTypes from "prop-types";
 
-const PrimeraAPP = ({saludo}) => {
+const PrimeraAPP = ({
+    saludo, 
+    subtitulo}) => {
    
 
     return (
         <>
             <h1>{saludo}  </h1>
             {/* <pre> { JSON.stringify(saludo,null,3) } </pre> */}
-            <p>Mi Primera aplicación</p>
+            <p> { subtitulo } </p>
         </>
     );
+}
+
+PrimeraAPP.defaultProps = {
+    subtitulo: 'Aprendiendo React'
 }
 
 PrimeraAPP.propTypes = {
