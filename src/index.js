@@ -11,4 +11,4 @@ const divRoot = document.querySelector('#root');
 const root = ReactDOM.createRoot(divRoot);
 // root.render(<PrimeraAPP saludo="Hola mundo"/>);
 
-root.render(<CounterApp value = {12092022} />)
+root.render(<CounterApp value = {10} />)
