@@ -1,8 +1,9 @@
 //FC
+import PropTypes from "prop-types";
 
-const PrimeraAPP = ({saludo = 'Hola Mundo'}) => {
-    //const saludo = 'Hola Mundo';
-    
+const PrimeraAPP = ({saludo}) => {
+   
+
     return (
         <>
             <h1>{saludo}  </h1>
@@ -10,6 +11,10 @@ const PrimeraAPP = ({saludo = 'Hola Mundo'}) => {
             <p>Mi Primera aplicación</p>
         </>
     );
+}
+
+PrimeraAPP.propTypes = {
+    saludo: PropTypes.string.isRequired
 }
 
 export default PrimeraAPP
