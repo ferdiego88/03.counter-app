@@ -19,7 +19,7 @@ const CounterApp = ({value = 10}) => {
     }
 
     const handleReset = (e) => {
-        setCounter(0);
+        setCounter(value);
     }
 
 
