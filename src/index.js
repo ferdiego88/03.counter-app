@@ -9,6 +9,6 @@ import CounterApp from "./CounterApp";
 const divRoot = document.querySelector('#root');
 
 const root = ReactDOM.createRoot(divRoot);
-// root.render(<PrimeraAPP saludo="Hola mundo"/>);
+root.render(<PrimeraAPP saludo="Hola, soy Goku"/>);
 
-root.render(<CounterApp value = {10} />)
+//root.render(<CounterApp value = {10} />)
